@@ -21,7 +21,7 @@ class KickTask extends Task{
 
         foreach ($bans as $ban){
             if($this->plugin->getServer()->getPlayer($ban["player"])){
-                $p = $this->plugin->getServer()->getPlayer($ban["player"]);
+                $p = $this->plugin->getPlayer($ban["player"]);
 
                 if(strtolower($p->getName()) === $ban["player"]){
                     if($this->plugin->isBanned($ban["player"])){
