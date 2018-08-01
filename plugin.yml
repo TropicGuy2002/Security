@@ -1,6 +1,6 @@
 name: Security
 version: 1.0
-author: Nils
+author: player
 api: 4.0.0
 description: Security
 main: Security\Sec
