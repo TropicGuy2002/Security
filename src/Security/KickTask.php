@@ -11,7 +11,6 @@ class KickTask extends Task{
 
     public function __construct(Plugin $owner) {
         $this->plugin = $owner;
-        parent::__construct($owner);
     }
 
     public function onRun(int $currentTick) {
