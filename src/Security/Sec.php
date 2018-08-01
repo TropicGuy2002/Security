@@ -8,7 +8,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
 class Sec extends PluginBase {
-    public $prefix = "§7[§bSecurity§7]";
+    public $prefix = "§7[§bBanSecurity§7]";
 
     public $file = "/home/Datenbank/security.yml";
 
