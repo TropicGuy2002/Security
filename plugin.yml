@@ -1,0 +1,15 @@
+name: Security
+version: 1.0
+author: Nils
+api: 4.0.0
+description: Security
+main: Security\Sec
+commands:
+  mute:
+    description: Mute a player
+  unmute:
+    description: Unmute a player
+  sban:
+    description: Ban a player
+  unban:
+    description: Unban a player
