@@ -25,7 +25,7 @@ class SecListener implements Listener {
         $ban = $this->plugin->isBanned($name);
 
         if ($ban) {
-            $text = "§4You are banned until §c" . $ban["until"] . "§e\nRequest unban in our Discord! §fhttps://atomicmc.tk/discord\n§eReason: §f" . $ban["reason"];
+            $text = "§4You are banned until §c" . $ban["until"] . "§e\nRequest unban in our Discord! §fhttps://WorldPlanet.ml\n§eReason: §f" . $ban["reason"];
 
             $player->close($text, $text, true);
         }
